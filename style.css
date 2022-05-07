@@ -92,13 +92,14 @@ header {
     border: none;
 }
 
-.heroimg > * {
-    margin-left: 50%;
-    display: row-reverse;
-    flex: 1;
-    flex-direction: row;
-    justify-content: center
+.heroimg {
     margin-right: 300px;
+}
+
+.heroimg > * {
+    margin-left: 25%;
+    flex: 1;
+    flex-direction: row-reverse;
     margin-bottom: 90px;
     height: auto;
     width: 700px;
