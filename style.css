@@ -94,6 +94,7 @@ header {
 
 .heroimg {
     margin-right: 300px;
+    margin-left: auto;
 }
 
 .heroimg > * {
