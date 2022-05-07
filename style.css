@@ -1,0 +1,253 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100vh;
+    box-sizing: border-box;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    background-color: #1F2937;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navleft {
+    margin-top: 20px;
+    margin-left: 300px;
+    font-size: 24px;
+    font-weight: 600;
+    color:#F9FAF8;
+}
+
+.navright {
+    font-size: 18px;
+    justify-content: space-between;
+    width: 390px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 300px;
+    display: inline-flex;
+
+}
+
+.hero {
+    padding-top: 70px;
+    flex-wrap: wrap;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    width: 100%;
+    background-color: #1F2937;
+}
+
+.heroleft {
+    row-gap: 10px;
+    justify-content: center;
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 300px;
+    margin-bottom: 200px;
+}
+
+.herotitle {
+    flex-wrap: wrap;
+    width: 300px;
+    padding: 0px;
+    margin-top: 20px;
+    margin-right: auto;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.herotext {
+    width: 400px;
+    margin-right: auto;
+    display: inline-flex;
+    align-self: flex-start;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.herobutton > * {
+    border: none;
+}
+
+.heroimg > * {
+    flex-shrink: 1;
+    margin-left: 180px;
+    display: inline-flex;
+    margin-right: 300px;
+    margin-bottom: 90px;
+    height: auto;
+    width: 700px;
+    border: none;
+    border-radius: 0;
+}
+
+.cards {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    margin-left: 300px;
+    margin-right: 400px;
+}
+
+.cardtitle {
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: black;
+}
+
+img {
+    border: solid;
+    border-radius: 15px;
+    border-color: #3882F6;
+    border-width: 3px;
+    height: 150px;
+    width: 150px;
+}
+
+.card {
+    flex-basis: 0;
+    margin: auto 30px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100px;
+    width: 50px;
+    margin-bottom: 80px;
+    height: 260px;
+}
+
+.card {
+    margin-top: 30px;
+    width: 200px;
+}
+
+.quote {
+    background-color: #bfc1c4;
+    padding: 100px;
+}
+
+p {
+    margin-left: 550px;
+    margin-right: 500px;
+    font-size: 38px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.signature {
+    margin-right: 425px;
+    margin-top: -35px;
+    font-size: 34px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.basewhite {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    background-color: white;
+    padding: 60px;
+}
+
+.baseblue {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    background-color: #3882F6;
+    margin-top: 50px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    padding: 0px;
+    height: 150px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.baseleft {
+    color: white;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: left;
+    justify-content: center;
+}
+
+.basetitle {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.basebutton {
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: center;
+    align-content: center;
+}
+
+button {
+    color: white;
+    border-radius: 5px;
+    border:solid;
+    background-color: #3882F6;
+    height: 40px;
+    width: 160px;
+}
+
+footer {
+    color: white;
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+    background-color: #1F2937;
+    position: fixed;
+    bottom: 0;
+}
